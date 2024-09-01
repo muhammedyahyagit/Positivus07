@@ -75,18 +75,3 @@ footer {
 
 
 /* Footer End */
-/* Media Query Start */
-
-@media screen and (max-width: 900px) {
-    .wrapper .carousel {
-        grid-auto-columns: calc((100% / 2));
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .wrapper .carousel {
-        grid-auto-columns: 100%;
-    }
-}
-
-/* Media Query End */
